@@ -8,6 +8,13 @@
 This server-client software enables users to effortlessly create and manage a secure home server without requiring a static IP. Utilizing robust SSH communication, it ensures all data transfers are encrypted and secure. The server automatically uploads its data, including the external IP address, to a remote git repository. Clients can then fetch this data to their local storage, providing smooth and secure access to the home network from anywhere.
 </p>
 
+</br>
+</br>
+</br>
+<p align="center">
+<img src="https://github.com/user-attachments/assets/0c994657-f484-465f-98d1-059d51bb3e92" alt="Diagram" />
+</p>
+
 ## Status
 
 > [!IMPORTANT]
