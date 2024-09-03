@@ -6,13 +6,13 @@
 
 </br>
 <p align="center">
-Server-Client software that enables users to effortlessly create and manage a secure home server without a static IP. By using SSH communication, it ensures all data transfers are encrypted and secure. The server periodically uploads its data, such as the external IP, to a gateway Git repository, from which clients can fetch the data to securely access home network from anywhere.
+Server-Client software that enables user to effortlessly create and manage a secure home server without a static IP. By using SSH communication, it ensures all data transfers are encrypted and secure. The server periodically uploads its data, such as the external IP, to a gateway Git repository, from which clients can fetch the data to securely access home network from anywhere.
 </p>
 
 </br>
 </br>
 <p align="center">
-<img src="https://github.com/user-attachments/assets/0c994657-f484-465f-98d1-059d51bb3e92" alt="Diagram" />
+<img src="https://github.com/user-attachments/assets/7fa0ca67-c09e-43da-bbd1-1e2c2f707eb3" alt="Diagram" />
 </p>
 
 ## Status
