@@ -1,3 +1,5 @@
-![homebound-logo](https://github.com/user-attachments/assets/2193c509-50bc-49e2-b4f8-976005a24c2f)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/06a5fed1-210d-443c-a6d4-b49550744f97" alt="Logo" />
+</p>
 
 SSH-based software for secure home network connectivity from anywhere.
