@@ -12,7 +12,7 @@ Server-Client software that enables user to effortlessly create and manage a sec
 </br>
 </br>
 <p align="center">
-<img src="https://github.com/user-attachments/assets/7fa0ca67-c09e-43da-bbd1-1e2c2f707eb3" alt="Diagram" />
+<img src="https://github.com/user-attachments/assets/0c5c8493-ac31-498b-87a4-6cd8871ce0a7" alt="Diagram" />
 </p>
 
 ## Status
