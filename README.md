@@ -28,3 +28,24 @@ Client currently shares the same compatibility as the server. In future, client 
 
 
 ## Setup
+
+## Roadmap
+- [x] MVP: Bash Server & Client
+
+- [ ] Client GUI
+    - [ ]  Display server data
+    - [ ]  Connect to Server Terminal
+    - [ ]  Generate & set SSH keys
+    - [ ]  Setup local git repository
+    - [ ]  Dependency verification
+     
+- [ ] Server Configurator GUI
+    - [ ] Generate & set SSH keys
+    - [ ] Setup local git repository
+    - [ ] Dependency verification
+     
+- [ ] Additional Features
+    - [ ] Wake on LAN 
+
+
+    
