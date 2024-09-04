@@ -20,7 +20,7 @@ Server-Client software that enables user to effortlessly create and manage a sec
 > [!NOTE]
 > Homebound is currently in its early development stages. Although it offers a flawless and secure experience, it does not yet include a graphical user interface (GUI). Future updates aim to introduce a GUI for even easier home server configuration and nice remote client.
 
-## Compatibility & Usage
+## Compatibility
 
 Server is designed to run on any computer with a Bash environment. Its lightweight nature ensures it can operate efficiently on all PCs, including those costing just a few dollars.
 
