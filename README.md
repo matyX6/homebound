@@ -29,6 +29,8 @@ Client currently shares the same compatibility as the server. In future, client 
 
 ## Setup
 
+Want to get your home server up and running? Follow this [Setup Guide](SETUPGUIDE.md) for step-by-step instructions.
+
 ## Roadmap
 
 Curious about what’s next? Take a look at the detailed [Roadmap](ROADMAP.md) for more information.
