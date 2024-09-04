@@ -18,5 +18,6 @@
 - [ ] Dependency verification
 
 ## Additional Features
-  - [ ] Wake on LAN (PC-s on the server network)
-  - [ ] Online status (Server & PC-s on the server network)
+- [ ] Wake on LAN (PC-s on the server network)
+- [ ] Online status (Server & PC-s on the server network)
+- [ ] Log system
