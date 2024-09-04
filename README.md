@@ -18,7 +18,7 @@ Server-Client software that enables user to effortlessly create and manage a sec
 ## Status
 
 > [!NOTE]
-> Homebound is currently in its early development stages. Although it offers a flawless and secure experience, it does not yet include a graphical user interface (GUI). Future updates aim to introduce a GUI for even easier home server configuration and nice remote client.
+> Homebound is currently in its early development stages. Although it offers a flawless and secure experience, the future aim is to deliver an easier home server and remote access setup by introducing a graphical user interface (GUI), packed with many quality of life (QoL) features.
 
 ## Compatibility
 
