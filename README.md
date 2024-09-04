@@ -22,9 +22,9 @@ Server-Client software that enables user to effortlessly create and manage a sec
 
 ## Compatibility
 
-Server is designed to run on any computer with a Bash environment. Its lightweight nature ensures it can operate efficiently on all PCs, including those costing just a few dollars.
+Server is designed to run on any computer with a Bash environment. Its lightweight nature ensures efficient operation on all PCs, even those costing just a few dollars.
 
-Client currently shares the same compatibility as the server. In future, client will be a GUI application supported only on GUI versions of Linux, macOS, and Windows.
+Client shares the same compatibility as the server, running seamlessly in a Bash environment.
 
 
 ## Setup
