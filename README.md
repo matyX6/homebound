@@ -39,4 +39,16 @@ Want to get your home server up and running? Follow this [Setup Guide](SETUPGUID
 
 Curious about what’s next? Take a look at the detailed [Roadmap](ROADMAP.md) for more information.
 
+## Contact
+
+If you have suggestions, need a setup support or just want to get in touch, join the [Discord server]().
+
+## Donations
+Developed in the free time, this project comes with a few extra costs, like hardware for testing and software licenses. Every bit of support will help this software grow!
+
+<a href="https://www.paypal.com/paypalme/matijajambresic">
+    <img src="https://sironaequine.org.uk/wp-content/uploads/2018/05/paypal-donate-button-png-clipart.png?w=517" width = 100>
+</a>
+
+
     
