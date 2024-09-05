@@ -6,6 +6,10 @@
 
 </br>
 <p align="center">
+    Cross-Platform & Open-Source
+</p>
+
+<p align="center">
 Server-Client software that enables user to effortlessly create and manage a secure home server without a static IP. By using SSH communication, it ensures all data transfers are encrypted and secure. The server periodically uploads its data, such as the external IP, to a gateway Git repository, from which clients can fetch the data to securely access home network from anywhere.
 </p>
 
