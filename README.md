@@ -33,7 +33,7 @@ Client shares the same compatibility as the server, running seamlessly in a Bash
 
 ## Setup
 
-Want to get your home server up and running? Follow this [Setup Guide](SETUPGUIDE.md) for step-by-step instructions.
+Want to get your home server up and running? Follow this [Setup Guide](SETUP.md) for step-by-step instructions.
 
 ## Roadmap
 
