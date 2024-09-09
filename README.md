@@ -41,7 +41,7 @@ Curious about what’s next? Take a look at the detailed [Roadmap](ROADMAP.md) f
 
 ## Contact
 
-If you have suggestions, need a setup support or just want to get in touch, join the [Discord server]().
+If you have suggestions, need a setup support or just want to get in touch, join the [Discord Server]().
 
 ## Donations
 Developed in the free time, this project comes with a few extra costs, like hardware for testing and software licenses. Every bit of support will help this software grow!
@@ -50,5 +50,12 @@ Developed in the free time, this project comes with a few extra costs, like hard
     <img src="https://sironaequine.org.uk/wp-content/uploads/2018/05/paypal-donate-button-png-clipart.png?w=517" width = 100>
 </a>
 
+## License
 
-    
+This project is licensed under the terms of the [GNU General Public License v3.0](LICENSE).
+
+Copyright (C) Matija Jambresic
+
+For information about third-party software used and their respective licenses, please see the [Third Party](THIRDPARTY.md) file.
+
+
