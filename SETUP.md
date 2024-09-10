@@ -2,7 +2,7 @@
 This guide assumes the software is being installed from scratch. While it aims to cover as many scenarios as possible, addressing every unique situation is nearly impossible. Therefore, you may need to look up solutions or find ways to make it work for any specific issues that may arise. Consider this guide as a general outline rather than a step-by-step manual to follow blindly.
 
 So, without further delay, let’s get started with the steps:
-1. [Getting Started](#getting-started) (installing dependencies)
+1. [Getting Started](#getting-started)
 2. [Generating SSH Keys](#generating-ssh-keys)
 3. [Setting Up Remote Repository](#setting-up-remote-repository)
 4. [Setting Up Server Software](#setting-up-server-software)
@@ -46,10 +46,24 @@ ssh-keygen -t rsa -b 4096 -C "custom_key_comment"
 ```
 
 > [!TIP]
-> Use the default name (id_rsa) for Git to recognize your SSH key automatically without SSH agent. For convenience and automatic connection, leave the passphrase empty.
+> Use the default SSK key name (id_rsa) for Git to recognize your SSH key automatically without SSH agent. For convenience and automatic connection, leave the passphrase empty.
 
 
 ## Setting Up Remote Repository
+
+To set up a remote Git repository, follow these steps:
+
+1. Log in to your preferred Git hosting service, such as GitHub, GitLab, or similar.
+2. Create a new repository on the platform. Look for an option like “New Repository” or “Create Project”.
+3. Follow the on-screen instructions to set up your repository. You’ll typically need to provide a name and optional description for your repository.
+
+Once your repository is created, you’ll receive an SSH URL that you can use to link your local project to this remote repository.
+
+> [!CAUTION]
+> Ensure your repository is set to private to keep your data secure.
+
+> [!TIP]
+> Consider naming your remote repository something recognizable, like homebound-server-data.
 
 ## Setting Up Server Software
 
