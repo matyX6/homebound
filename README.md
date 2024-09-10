@@ -45,7 +45,7 @@ Curious about what’s next? Take a look at the detailed [Roadmap](ROADMAP.md) f
 
 ## Contact
 
-If you have suggestions, need a setup support or just want to get in touch, join the [Discord Server]().
+If you have suggestions, need a setup support or just want to get in touch, join the [Discord Server](https://discord.gg/7cM9wzDa).
 
 ## License
 
