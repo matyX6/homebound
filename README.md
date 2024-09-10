@@ -15,9 +15,12 @@ Server-Client software that enables user to effortlessly create and manage a sec
 
 </br>
 </br>
+
 <p align="center">
-<img src="https://github.com/user-attachments/assets/0c5c8493-ac31-498b-87a4-6cd8871ce0a7#gh-light-mode-only" alt="Diagram Light" />
-<img src="https://github.com/user-attachments/assets/4c1c2118-b778-451f-966d-2067e37d5f2f#gh-dark-mode-only" alt="Diagram Dark" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/0c5c8493-ac31-498b-87a4-6cd8871ce0a7">
+    <img src="https://github.com/user-attachments/assets/4c1c2118-b778-451f-966d-2067e37d5f2f" alt="Diagram">
+  </picture>
 </p>
 
 ## Status
