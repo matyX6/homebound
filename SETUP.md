@@ -28,6 +28,27 @@ Before setting up Homebound, it’s essential to install the necessary software 
 
 ## Generating SSH Keys
 
+You can generate the keys using the terminal by following the instructions. You are free to generate new keys or use existing ones, managing them with your preferred methods.
+
+#### Check if you already have generated SSH keys:
+```
+ls -al ~/.ssh
+```
+
+#### Generate a new SSH key. -C "custom_key_comment" is optional, if you want your key to be more recognizeable.
+```
+ssh-keygen -t rsa -b 4096 -C "custom_key_comment"
+```
+
+#### Start an SSH agent & add your key
+```
+ssh-keygen -t rsa -b 4096 -C "custom_key_comment"
+```
+
+> [!TIP]
+> Use the default name (id_rsa) for Git to recognize your SSH key automatically without SSH agent. For convenience and automatic connection, leave the passphrase empty.
+
+
 ## Setting Up Remote Repository
 
 ## Setting Up Server Software
