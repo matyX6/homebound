@@ -7,6 +7,7 @@ So, without further delay, let’s get started with the steps:
 3. [Setting Up Remote Repository](#setting-up-remote-repository)
 4. [Setting Up Server Software](#setting-up-server-software)
 5. [Setting Up Client Software](#setting-up-client-software)
+6. [SSH Port Forwarding](#ssh-port-forwarding)
 
 > [!NOTE]
 > The difficulty level of setting up this software is comparable to setting up a remote Git repository using the SSH authentication method.
@@ -48,8 +49,6 @@ ssh-keygen -t rsa -b 4096 -C "custom_key_comment"
 
 ## Setting Up Remote Repository
 
-To set up a remote Git repository, follow these steps:
-
 1. Log in to your preferred Git hosting service, such as GitHub, GitLab, or similar.
 2. Create a new repository on the platform. Look for an option like “New Repository” or “Create Project”.
 3. Follow the on-screen instructions to set up your repository. You’ll typically need to provide a name and optional description for your repository.
@@ -64,9 +63,9 @@ Once your repository is created, you’ll receive an SSH URL that you can use to
 
 ## Setting Up Server Software
 1. Ensure that all necessary software and SSH keys are installed and configured on your machine.
-2. Download the latest server release from the [Releases](https://github.com/matyX6/homebound/releases) page.
+2. Download the latest Server release from the [Releases](https://github.com/matyX6/homebound/releases) page.
 3. Unpack the archive to your desired location on the system.
-4. Initialize the local server Git repository in the “sync_data” directory.
+4. Initialize the local Git repository in the “sync_data” directory.
 ```
 git init /your-custom-path/homebound/sync_data/
 ```
@@ -84,3 +83,37 @@ bash /your-custom-path/homebound/server/server.sh
 > If everything is set up correctly, your home server will immediately upload the data to your preferred Git hosting service. If not, an error message will be displayed in the terminal window.
 
 ## Setting Up Client Software
+
+1. Ensure that all necessary software and SSH keys are installed and configured on your machine.
+2. Download the latest Client release from the [Releases](https://github.com/matyX6/homebound/releases) page.
+3. Unpack the archive to your desired location on the system.
+4. Initialize the local Git repository in the “sync_data” directory.
+```
+git init /your-custom-path/homebound/sync_data/
+```
+5. Add the remote URL to your local repository.
+```
+git remote add origin git@github.com:username/repository.git
+```
+6. Ensure that the files in the Homebound directory have execute permissions (this varies by operating system).
+7. Use any of the provided Bash scripts from client directory.
+```
+bash /your-custom-path/homebound/client/any-script.sh
+```
+
+> [!NOTE]
+> If the client is set up correctly, it will immediately sync the data from the remote repository when the client scripts are run. If not, an error message will be displayed in the terminal window.
+
+## SSH Port Forwarding
+
+Port forwarding SSH connections is optional. At this stage, your home server setup should already be syncing data between the server and client. However, if you want to remotely control the server from the client, you’ll need to open the SSH port (port 22) on your home network.
+
+1. Access your router by opening a web browser and entering your router’s IP address (e.g., 192.168.1.1).
+2. Log in using your router’s username and password.
+3. Navigate to the “Port Forwarding” section.
+4. Add a new rule for port 22 (SSH) and specify your system’s static IP address.
+5. Save the changes.
+
+> [!NOTE]
+> If you encounter issues with port forwarding, search for “How to port forward?” specific to your router model. Many routers have pre-defined SSH port forwarding settings, where you'll just need to enter your system’s static IP and enable it.
+
