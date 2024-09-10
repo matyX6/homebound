@@ -34,20 +34,17 @@ You can generate the keys using the terminal by following the instructions. You 
 ```
 ls -al ~/.ssh
 ```
-
 #### Generate a new SSH key. -C "custom_key_comment" is optional, if you want your key to be more recognizeable.
 ```
 ssh-keygen -t rsa -b 4096 -C "custom_key_comment"
 ```
-
 #### Start an SSH agent & add your key
 ```
 ssh-keygen -t rsa -b 4096 -C "custom_key_comment"
 ```
 
 > [!TIP]
-> Use the default SSK key name (id_rsa) for Git to recognize your SSH key automatically without SSH agent. For convenience and automatic connection, leave the passphrase empty.
-
+> Use the default SSH key name (id_rsa) for Git to recognize your SSH key automatically without SSH agent. For convenience and automatic connection, leave the passphrase empty.
 
 ## Setting Up Remote Repository
 
@@ -66,5 +63,24 @@ Once your repository is created, you’ll receive an SSH URL that you can use to
 > Consider naming your remote repository something recognizable, like homebound-server-data.
 
 ## Setting Up Server Software
+1. Ensure that all necessary software and SSH keys are installed and configured on your machine.
+2. Download the latest server release from the [Releases](https://github.com/matyX6/homebound/releases) page.
+3. Unpack the archive to your desired location on the system.
+4. Initialize the local server Git repository in the “sync_data” directory.
+```
+git init /your-custom-path/homebound/sync_data/
+```
+5. Add the remote URL to your local repository.
+```
+git remote add origin git@github.com:username/repository.git
+```
+6. Ensure that the files in the Homebound directory have execute permissions (this varies by operating system).
+7. Start the server in the Bash environment.
+```
+bash /your-custom-path/homebound/server/server.sh
+```
+
+> [!NOTE]
+> If everything is set up correctly, your home server will immediately upload the data to your preferred Git hosting service. If not, an error message will be displayed in the terminal window.
 
 ## Setting Up Client Software
