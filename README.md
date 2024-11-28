@@ -26,7 +26,7 @@ Server-Client software that enables user to effortlessly create and manage a sec
 ## Status
 
 > [!NOTE]
-> Homebound is currently in its early development stages. Although it offers a flawless and secure experience, the future aim is to deliver an easier home server and remote access setup by introducing a graphical user interface (GUI), packed with many quality of life (QoL) features.
+> Homebound is currently in its early development stages. Although it offers a flawless and secure experience, the future aim is to deliver an easier home server and remote access setup, packed with many quality of life (QoL) features.
 
 ## Compatibility
 
@@ -34,24 +34,19 @@ Server is designed to run on any computer with a Bash environment. Its lightweig
 
 Client shares the same compatibility as the server, running seamlessly in a Bash environment.
 
-
 ## Setup
 
 Want to get your home server up and running? Follow this [Setup Guide](SETUP.md) for step-by-step instructions.
 
-## Roadmap
-
-Curious about what’s next? Take a look at the detailed [Roadmap](ROADMAP.md) for more information.
-
 ## Contact
 
-If you have suggestions, need a setup support or just want to get in touch, join the [Discord Server](https://discord.gg/7cM9wzDa).
+If you have any suggestions, need setup support, or just want to get in touch, please feel free to send me an [email](mailto:custom.email@yahoo.com).
 
 ## License
 
 This project is licensed under the terms of the [GNU General Public License v3.0](LICENSE).
 
-Copyright (C) Matija Jambresic
+Copyright © Matija Jambresic
 
 For information about third-party software used and their respective licenses, please see the [Third Party](THIRDPARTY.md) file.
 
