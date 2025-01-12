@@ -49,12 +49,3 @@ This project is licensed under the terms of the [GNU General Public License v3.0
 Copyright © Matija Jambresic
 
 For information about third-party software used and their respective licenses, please see the [Third Party](THIRDPARTY.md) file.
-
-## Donations
-Developed in the free time, this project comes with a few extra costs, like hardware for testing and software licenses. Every bit of support will help this software grow!
-
-<a href="https://www.paypal.com/paypalme/matijajambresic">
-    <img src="https://sironaequine.org.uk/wp-content/uploads/2018/05/paypal-donate-button-png-clipart.png?w=517" width = 100>
-</a>
-
-
